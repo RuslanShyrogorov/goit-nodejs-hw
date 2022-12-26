@@ -1,0 +1,26 @@
+{
+  "name": "goit-nodejs-hw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuslanShyrogorov/goit-nodejs-hw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuslanShyrogorov/goit-nodejs-hw/issues"
+  },
+  "homepage": "https://github.com/RuslanShyrogorov/goit-nodejs-hw#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
