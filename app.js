@@ -1,7 +1,4 @@
-// const argv = require("yargs").argv;
 const { program } = require("commander");
-// const { Command } = require("commander");
-// const program = new Command();
 
 const { contacts } = require("./contacts");
 
@@ -48,29 +45,8 @@ program
   .option("-e, --email <type>")
   .option("-p, --phone <type>");
 
-// program.parse(process.argv);
 program.parse();
 
 const argv = program.opts();
 
 invokeAction(argv);
-// invokeAction({ action: "list" });
-
-// invokeAction({ action: "get", id: "2" });
-
-// invokeAction({
-//   action: "add",
-//   name: "Robert Deniro",
-//   email: "robert.deniro@google.com",
-//   phone: "(592) 222-3344",
-// });
-
-// invokeAction({
-//   action: "update",
-//   id: "2f435fff-e3a0-466a-9ac8-fdb99e57825f",
-//   name: "Donald Trump",
-//   email: "donald.trump@google.com",
-//   phone: "(592) 222-3344",
-// });
-
-// invokeAction({ action: "remove", id: "797dc810-afa9-4d75-bcfa-e1d4c0bf617c" });
