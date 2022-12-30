@@ -13,7 +13,7 @@ async function listContacts() {
     const result = await fs.readFile(contactsPath, "utf-8");
     return JSON.parse(result);
   } catch (error) {
-    console.log(error.me);
+    console.log(error);
   }
 }
 
